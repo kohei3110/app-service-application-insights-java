@@ -1,13 +1,8 @@
-# Initial Application
+# Sample Application
 
 ```bash
 $ mvn clean package
 $ mvn package azure-webapp:deploy
-```
-
-- Application Gateway 接続文字列の環境変数設定？
-```bash
-$ export CONNECTION_STRING=InstrumentationKey=a4cfcf45-6c12-4711-8eab-3acad8c20f7f;IngestionEndpoint=https://westus2-2.in.applicationinsights.azure.com/
 ```
 
 ## Reference
